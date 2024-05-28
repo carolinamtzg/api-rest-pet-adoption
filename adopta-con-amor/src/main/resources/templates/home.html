@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Adopta Con Amor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" th:href="@{/mascotas.css}" />
+</head>
+<body>
+    <div class="center">
+        <h1>Adopta Con Amor</h1>
+		<p>Es una organización sin fines de lucro, dedicada al rescate, rehabilitación y reubicación de perros y gatos abandonados.</p>
+        <img th:src="@{/img/pets-3715733_1280.jpg}" />
+        
+        <div class="element">
+            <a th:href="@{/listado-mascotas}" id="another">Ver mascotas en adopción</a>
+        </div>
+    </div>
+</body>
+</html>

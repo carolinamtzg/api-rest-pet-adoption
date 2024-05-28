@@ -1,0 +1,101 @@
+
+/* Importar las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* Estilos generales */
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #F0F6F6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+p {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 700px; /* Ajusta el tamaño de la img */
+    margin-top: 20px;
+}
+
+.element {
+    margin-top: 20px;
+}
+
+#another {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #FFA987;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#another:hover {
+    background-color: #42BFDD;
+}
+
+
+div.ingredient-group:nth-child(even) {
+	float: left;
+	padding-right: 0;
+}
+
+div.ingredient-group {
+
+	width: 50%;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+span.validationError {
+	color: red;
+}
+
+.center {
+	display: inline-block; 
+	height: auto;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+
+
+.element {
+	padding: 5px;
+}
+
